@@ -3,6 +3,7 @@ html {
     min-height: 100%;
 }
 body {
+    margin-top: 70px;
     margin-bottom: 70px; /* 50 for footer + 20 margin */
 }
 
