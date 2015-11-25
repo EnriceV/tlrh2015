@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
-    <body>
+    <body>    
     <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -26,19 +26,21 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Tracker</a></li>
-        <li><a href="#">Social</a></li>
-        <li><a href="#">Riders</a></li>
-        <li><a href="#">WTF?!</a></li>
+        <li><a href="#tracker">Tracker</a></li>
+        <li><a href="#social">Social</a></li>
+        <li><a href="#riders">Riders</a></li>
+        <li><a href="#wtf">WTF?!</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
+        <li><a href="#about">About</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proudly supported by<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Datafable</a></li>
             <li><a href="#">Myps Catering</a></li>
-            <li><a href="#">Soloride </a></li>
+            <li><a href="#">Soloride</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
           </ul>
         </li>
       </ul>
@@ -54,7 +56,7 @@
                 <p>Worried mothers, wifes and daughters can follow their heros on the map below that will display live information about the riders position, travelled distance and mental state. You can already explore the checkpoints by clicking them.</p>
             </div>
         </div>
-
+<a name="tracker"></a>
         <nav id="controls">
             <div class="container">
                 <form class="form-inline" role="form">
