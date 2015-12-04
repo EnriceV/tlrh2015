@@ -26,4 +26,10 @@ body {
 #footer .container {
         padding-top: 15px;
     }
-.top-buffer {margin-top: 80px;}
+.top-buffer {
+    margin-top: 80px;
+    }
+.rijder{
+    background-color: #e3e3e3;
+    border-radius: 15px 15px 15px 15px;
+    }
